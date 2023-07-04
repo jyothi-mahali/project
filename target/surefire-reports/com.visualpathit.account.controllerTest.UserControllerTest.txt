@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: com.visualpathit.account.controllerTest.UserControllerTest
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.15 s - in com.visualpathit.account.controllerTest.UserControllerTest
+loginTestHappyFlow(com.visualpathit.account.controllerTest.UserControllerTest)  Time elapsed: 2.15 s
+welcomeAfterDirectLoginTestHappyFlow(com.visualpathit.account.controllerTest.UserControllerTest)  Time elapsed: 2.14 s
+welcomeTestHappyFlow(com.visualpathit.account.controllerTest.UserControllerTest)  Time elapsed: 2.141 s
+registrationTestforNullValueHappyFlow(com.visualpathit.account.controllerTest.UserControllerTest)  Time elapsed: 2.143 s
+registrationTestforHappyFlow(com.visualpathit.account.controllerTest.UserControllerTest)  Time elapsed: 2.129 s
+indexTestHappyFlow(com.visualpathit.account.controllerTest.UserControllerTest)  Time elapsed: 2.134 s

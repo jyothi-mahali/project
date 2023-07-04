@@ -1,0 +1,57 @@
+11:50:06.801 [pool-1-thread-6] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter#532 Looking for @ControllerAdvice: org.springframework.test.web.servlet.setup.StubWebApplicationContext@4cfdee0e
+11:50:06.984 [pool-1-thread-6] INFO  o.s.m.w.MockServletContext#154 Initializing Spring FrameworkServlet ''
+11:50:06.989 [pool-1-thread-6] INFO  o.s.t.w.s.TestDispatcherServlet#488 FrameworkServlet '': initialization started
+11:50:06.991 [pool-1-thread-6] INFO  o.s.t.w.s.TestDispatcherServlet#507 FrameworkServlet '': initialization completed in 0 ms
+Model data{}
+ERROR StatusLogger Log4j2 could not find a logging implementation. Please add log4j-core to the classpath. Using SimpleLogger to log to the console...
+11:50:06.801 [pool-1-thread-2] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter#532 Looking for @ControllerAdvice: org.springframework.test.web.servlet.setup.StubWebApplicationContext@51c4cc33
+11:50:06.984 [pool-1-thread-2] INFO  o.s.m.w.MockServletContext#154 Initializing Spring FrameworkServlet ''
+11:50:06.984 [pool-1-thread-2] INFO  o.s.t.w.s.TestDispatcherServlet#488 FrameworkServlet '': initialization started
+11:50:06.989 [pool-1-thread-2] INFO  o.s.t.w.s.TestDispatcherServlet#507 FrameworkServlet '': initialization completed in 4 ms
+11:50:06.801 [pool-1-thread-3] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter#532 Looking for @ControllerAdvice: org.springframework.test.web.servlet.setup.StubWebApplicationContext@3467ef91
+11:50:06.984 [pool-1-thread-3] INFO  o.s.m.w.MockServletContext#154 Initializing Spring FrameworkServlet ''
+11:50:06.989 [pool-1-thread-3] INFO  o.s.t.w.s.TestDispatcherServlet#488 FrameworkServlet '': initialization started
+11:50:06.991 [pool-1-thread-3] INFO  o.s.t.w.s.TestDispatcherServlet#507 FrameworkServlet '': initialization completed in 2 ms
+11:50:06.801 [pool-1-thread-1] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter#532 Looking for @ControllerAdvice: org.springframework.test.web.servlet.setup.StubWebApplicationContext@57f51376
+11:50:06.984 [pool-1-thread-1] INFO  o.s.m.w.MockServletContext#154 Initializing Spring FrameworkServlet ''
+11:50:06.989 [pool-1-thread-1] INFO  o.s.t.w.s.TestDispatcherServlet#488 FrameworkServlet '': initialization started
+11:50:06.991 [pool-1-thread-1] INFO  o.s.t.w.s.TestDispatcherServlet#507 FrameworkServlet '': initialization completed in 0 ms
+11:50:06.801 [pool-1-thread-4] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter#532 Looking for @ControllerAdvice: org.springframework.test.web.servlet.setup.StubWebApplicationContext@61d5bc81
+11:50:06.984 [pool-1-thread-4] INFO  o.s.m.w.MockServletContext#154 Initializing Spring FrameworkServlet ''
+11:50:06.985 [pool-1-thread-4] INFO  o.s.t.w.s.TestDispatcherServlet#488 FrameworkServlet '': initialization started
+11:50:06.989 [pool-1-thread-4] INFO  o.s.t.w.s.TestDispatcherServlet#507 FrameworkServlet '': initialization completed in 0 ms
+SLF4J: The following set of substitute loggers may have been accessed
+SLF4J: during the initialization phase. Logging calls during this
+SLF4J: phase were not honored. However, subsequent logging calls to these
+SLF4J: loggers will work as normally expected.
+SLF4J: See also http://www.slf4j.org/codes.html#substituteLogger
+SLF4J: org.springframework.context.support.DelegatingMessageSource
+SLF4J: org.springframework.mock.web.MockRequestDispatcher
+SLF4J: org.springframework.web.context.support.ServletContextResourcePatternResolver
+SLF4J: org.springframework.core.env.StandardEnvironment
+SLF4J: org.springframework.core.env.SystemEnvironmentPropertySource
+SLF4J: com.visualpathit.account.setup.StandaloneMvcTestViewResolver
+SLF4J: org.springframework.test.web.servlet.setup.StandaloneMockMvcBuilder$StaticRequestMappingHandlerMapping
+SLF4J: org.springframework.core.io.support.PathMatchingResourcePatternResolver
+SLF4J: org.springframework.web.servlet.mvc.condition.ProducesRequestCondition$ProduceMediaTypeExpression
+SLF4J: org.springframework.web.method.HandlerMethod
+SLF4J: org.springframework.web.cors.DefaultCorsProcessor
+SLF4J: org.springframework.core.env.MapPropertySource
+SLF4J: org.springframework.web.util.UrlPathHelper
+SLF4J: org.springframework.core.SpringProperties
+SLF4J: org.springframework.core.env.PropertySourcesPropertyResolver
+SLF4J: org.springframework.mock.web.MockServletContext
+11:50:05.943 [pool-1-thread-5] INFO  o.s.t.w.s.s.StandaloneMockMvcBuilder$StaticRequestMappingHandlerMapping#154 Mapped "{[/registration],methods=[GET]}" onto public final java.lang.String com.visualpathit.account.controller.UserController.registration(org.springframework.ui.Model)
+11:50:05.949 [pool-1-thread-5] INFO  o.s.t.w.s.s.StandaloneMockMvcBuilder$StaticRequestMappingHandlerMapping#154 Mapped "{[/registration],methods=[POST]}" onto public final java.lang.String com.visualpathit.account.controller.UserController.registration(com.visualpathit.account.model.User,org.springframework.validation.BindingResult,org.springframework.ui.Model)
+11:50:05.950 [pool-1-thread-5] INFO  o.s.t.w.s.s.StandaloneMockMvcBuilder$StaticRequestMappingHandlerMapping#154 Mapped "{[/login],methods=[GET]}" onto public final java.lang.String com.visualpathit.account.controller.UserController.login(org.springframework.ui.Model,java.lang.String,java.lang.String)
+11:50:05.950 [pool-1-thread-5] INFO  o.s.t.w.s.s.StandaloneMockMvcBuilder$StaticRequestMappingHandlerMapping#154 Mapped "{[/ || /welcome],methods=[GET]}" onto public final java.lang.String com.visualpathit.account.controller.UserController.welcome(org.springframework.ui.Model)
+11:50:05.950 [pool-1-thread-5] INFO  o.s.t.w.s.s.StandaloneMockMvcBuilder$StaticRequestMappingHandlerMapping#154 Mapped "{[/users/{id}],methods=[GET]}" onto public java.lang.String com.visualpathit.account.controller.UserController.getOneUser(java.lang.String,org.springframework.ui.Model)
+11:50:05.951 [pool-1-thread-5] INFO  o.s.t.w.s.s.StandaloneMockMvcBuilder$StaticRequestMappingHandlerMapping#154 Mapped "{[/user/rabbit],methods=[GET]}" onto public java.lang.String com.visualpathit.account.controller.UserController.rabbitmqSetUp()
+11:50:05.951 [pool-1-thread-5] INFO  o.s.t.w.s.s.StandaloneMockMvcBuilder$StaticRequestMappingHandlerMapping#154 Mapped "{[/index],methods=[GET]}" onto public final java.lang.String com.visualpathit.account.controller.UserController.indexHome(org.springframework.ui.Model)
+11:50:05.951 [pool-1-thread-5] INFO  o.s.t.w.s.s.StandaloneMockMvcBuilder$StaticRequestMappingHandlerMapping#154 Mapped "{[/user/{username}],methods=[GET]}" onto public final java.lang.String com.visualpathit.account.controller.UserController.userUpdate(java.lang.String,org.springframework.ui.Model)
+11:50:05.952 [pool-1-thread-5] INFO  o.s.t.w.s.s.StandaloneMockMvcBuilder$StaticRequestMappingHandlerMapping#154 Mapped "{[/users],methods=[GET]}" onto public java.lang.String com.visualpathit.account.controller.UserController.getAllUsers(org.springframework.ui.Model)
+11:50:05.952 [pool-1-thread-5] INFO  o.s.t.w.s.s.StandaloneMockMvcBuilder$StaticRequestMappingHandlerMapping#154 Mapped "{[/user/{username}],methods=[POST]}" onto public final java.lang.String com.visualpathit.account.controller.UserController.userUpdateProfile(java.lang.String,com.visualpathit.account.model.User,org.springframework.ui.Model)
+11:50:06.801 [pool-1-thread-5] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter#532 Looking for @ControllerAdvice: org.springframework.test.web.servlet.setup.StubWebApplicationContext@55e8c774
+11:50:06.984 [pool-1-thread-5] INFO  o.s.m.w.MockServletContext#390 Initializing Spring FrameworkServlet ''
+11:50:06.989 [pool-1-thread-5] INFO  o.s.t.w.s.TestDispatcherServlet#488 FrameworkServlet '': initialization started
+11:50:06.991 [pool-1-thread-5] INFO  o.s.t.w.s.TestDispatcherServlet#507 FrameworkServlet '': initialization completed in 0 ms
